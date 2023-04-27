@@ -1,57 +1,21 @@
-# Project Name
+# Tutorial: Deploy environments in CI/CD with GitHub
 
-(short, 1-3 sentenced, description of the project)
+This template repository contains starter files and configuration for the [Tutorial: Deploy environments in CI/CD with GitHub](https://learn.microsoft.com/en-us/azure/deployment-environments/tutorial-deploy-environments-in-cicd-github).
+
+In this tutorial, you'll Learn how to integrate Azure Deployment Environments into your CI/CD pipeline by using GitHub Actions. You use a workflow that features three branches: main, dev, and test.
 
 ## Features
 
-This project framework provides the following features:
+In this tutorial, you learn how to:
 
-* Feature 1
-* Feature 2
-* ...
+1. Create and configure a dev center
+2. Create a key vault
+3. Create and configure a GitHub repository
+4. Connect the catalog to your dev center
+5. Configure deployment identities
+6. Configure GitHub environments
+7. Test the CI/CD pipeline
 
 ## Getting Started
 
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+To use this template repository, follow the steps in [Tutorial: Deploy environments in CI/CD with GitHub](https://learn.microsoft.com/en-us/azure/deployment-environments/tutorial-deploy-environments-in-cicd-github).
