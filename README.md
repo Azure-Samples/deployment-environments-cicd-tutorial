@@ -4,6 +4,8 @@ This template repository contains starter files and configuration for the [Tutor
 
 In this tutorial, you'll Learn how to integrate Azure Deployment Environments into your CI/CD pipeline by using GitHub Actions. You use a workflow that features three branches: main, dev, and test.
 
+![Screenshot showing GitHub Actions workflows](/media/samples-repo-image.png)
+
 ## Features
 
 In this tutorial, you learn how to:
