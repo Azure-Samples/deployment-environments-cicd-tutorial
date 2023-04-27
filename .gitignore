@@ -396,3 +396,19 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+[lL]ocal
+.[lL]ocal
+
+.venv
+.env
+
+local.settings.json
+local.parameters.json
+
+publish
+publish.zip
+
+ADE.Tutorial.sln
+
+.DS_Store
