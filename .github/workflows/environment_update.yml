@@ -65,7 +65,7 @@ jobs:
                   environment_rg=$(az devcenter dev environment create \
                       --name ${{ env.ENVIRONMENT_NAME }} --environment-type ${{ env.ENVIRONMENT_TYPE }} \
                       --dev-center ${{ vars.AZURE_DEVCENTER }} --project ${{ vars.AZURE_PROJECT }} \
-                      --catalog-name ${{ vars.AZURE_CATALOG }} --catalog-item-name ${{ vars.AZURE_CATALOG_ITEM }} \
+                      --catalog-name ${{ vars.AZURE_CATALOG }} --environment-definition-name ${{ vars.AZURE_CATALOG_ITEM }} \
                       --parameters '{ "name": "${{ env.ENVIRONMENT_NAME }}" }' --only-show-errors \
                       --query resourceGroupId --output tsv 2>&1)
 
